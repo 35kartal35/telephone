@@ -1,0 +1,36 @@
+{
+    "telephones": [
+        {
+        "id": "1",
+        "name": "Mehmet",
+        "Telnumber": "05536798952",
+        "groupId": "1"
+        },
+        {
+            "id": "2",
+            "name": "Ömer",
+            "Telnumber": "05536798955",
+            "groupId": "2"
+            },
+            {
+                "id": "2",
+                "name": "Ömer",
+                "Telnumber": "05536798955",
+                "groupId": "2"
+                }
+    ],
+    "groups": [
+        {
+            "id": "1",
+            "name": "iş"
+        },
+        {
+            "id": "2",
+            "name": "Okul"
+        },
+        {
+            "id": "3",
+            "name": "Arkadaş"
+        }
+    ]
+}
