@@ -3,9 +3,7 @@ import React from "react";
 const AddBook=()=>{
     return(
         <div>
-            <h2>
-                AddBook
-            </h2>
+            <h1>AddBook</h1>
         </div>
     )
 };

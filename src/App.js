@@ -7,6 +7,9 @@ import urls from "./api/urls";
 import { useEffect } from "react";
 import { useSelector,useDispatch } from "react-redux";
 import actionTypes from "./redux/action/actionTypes";
+import AddBook from "./page/AddBook";
+import Detail from "./page/Detail";
+
 
 function App() {
   const dispatch=useDispatch()
@@ -41,6 +44,9 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePages/>}/>
       <Route path="*" element={<Error/>}/>
+      <Route path="/detail/:telephoneId" element={<Detail/>}/>
+      <Route path="/add-telephone" element={<AddBook/>}/>
+      
       </Routes>
     </BrowserRouter>
   );
