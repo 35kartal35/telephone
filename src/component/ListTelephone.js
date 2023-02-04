@@ -3,6 +3,7 @@ import api from "../api/api";
 import urls from "../api/urls";
 import { useSelector,useDispatch } from "react-redux";
 import actionTypes from "../redux/action/actionTypes";
+import { Link } from "react-router-dom";
 
 
 const ListTelephone=()=>{
@@ -38,6 +39,7 @@ const ListTelephone=()=>{
           SİL
           </button>
         <button className="generalBtn editBtn">GÜNCELLE</button>
+        <Link to={`/Detail/${telephone.id}`} className="generalBtn">Detay</Link>
         
         </td>
     </tr>

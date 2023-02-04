@@ -44,7 +44,7 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePages/>}/>
       <Route path="*" element={<Error/>}/>
-      <Route path="/detail/:telephoneId" element={<Detail/>}/>
+      <Route path="/Detail/telephoneId" element={<Detail/>}/>
       <Route path="/add-telephone" element={<AddBook/>}/>
       
       </Routes>

@@ -5,25 +5,9 @@
         "name": "Mehmet",
         "Telnumber": "05536798952",
         "groupId": "1"
-        },
-        {
-            "id": "2",
-            "name": "Ömer",
-            "Telnumber": "05536798955",
-            "groupId": "2"
-            },
-            {
-                "id": "3",
-                "name": "Ömer",
-                "Telnumber": "05536798955",
-                "groupId": "2"
-                },
-                {
-                    "id": "3",
-                    "name": "Ömer",
-                    "Telnumber": "05536798955",
-                    "groupId": "2"
-                    }
+        }
+        
+                
 
     ],
     "groups": [
