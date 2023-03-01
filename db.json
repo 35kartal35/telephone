@@ -1,33 +1,66 @@
 {
-    "telephones": [
-        {
-        "id": "1",
-        "name": "Mehmet",
-        "Telnumber": "05536798952",
-        "groupId": "1"
-        },
-        {
-            "id": "2",
-            "name": "Mehmet",
-            "Telnumber": "055368952",
-            "groupId": "2"
-            }                       
-        
-                
-
-    ],
-    "groups": [
-        {
-            "id": "1",
-            "name": "iş"
-        },
-        {
-            "id": "2",
-            "name": "Okul"
-        },
-        {
-            "id": "3",
-            "name": "Arkadaş"
-        }
-    ]
+  "telephones": [
+    {
+      "id": "1",
+      "name": "Mehmet",
+      "Telnumber": "05536798952",
+      "groupId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Mehmet",
+      "Telnumber": "055368952",
+      "groupId": "2"
+    },
+    {
+      "id": "1677699508993",
+      "name": "",
+      "Telnumber": "",
+      "groupId": "1"
+    },
+    {
+      "id": "1677700034610",
+      "name": "Memiş özdemir",
+      "Telnumber": "05070192181",
+      "groupId": "1"
+    },
+    {
+      "id": "1677700447256",
+      "name": "dadımın kedisi",
+      "Telnumber": "115596555525",
+      "groupId": "2"
+    },
+    {
+      "id": "1677700475239",
+      "name": "ddd",
+      "Telnumber": "233",
+      "groupId": "2"
+    },
+    {
+      "id": "1677700821341",
+      "name": "dadımın kedisi",
+      "Telnumber": "1597862",
+      "groupId": "3"
+    },
+    {
+      "id": "1677700974851",
+      "name": "SS",
+      "Telnumber": "123",
+      "groupId": "1"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "iş"
+    },
+    {
+      "id": "2",
+      "name": "Okul"
+    },
+    {
+      "id": "3",
+      "name": "Arkadaş"
+    }
+  ]
 }

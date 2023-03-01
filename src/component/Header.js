@@ -6,7 +6,7 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-sm navbar-dark bg-secondary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">Telefon Rehberi</a>
+          <Link className="btn btn-secondary" to={("/")}>Telefon Rehberi</Link>
           <button className="navbar-toggler"
           type="button" 
           data-bs-toggle="collapse" 
@@ -19,7 +19,7 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link to={"/add-telephone"} className="nav-link active" aria-current="page" href="#">EKLE</Link>
+                <Link to={"/add-telephone"} className="nav-link active" aria-current="page" href="#">REHBERE KİŞİ EKLE</Link>
               </li>
              
             </ul>
